@@ -7,10 +7,15 @@ permalink: /about/
 This is the blog site for Justin Hall.
 
 Twitter: @jhalljhall
+
 Xbox One: jhalljhall
+
 PS4: jhalljhall
+
 Instagram: jhalljhall
+
 Github: jhalljhall
+
 Drupal: jhalljhall
 
 I am using the CMS called Jekyll [jekyllrb.com](http://jekyllrb.com/). 
