@@ -2,11 +2,12 @@
 title: Justin Hall's Blog
 email: jhalljhall@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  The blog for Justin Hall.  Includes musings, ramblings, and stories about tech, art, card games, and randomness.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://justinhall.com" # the base hostname & protocol for your site
+url: "" # the base hostname & protocol for your site
+
 twitter_username: jhalljhall
-github_username:  jhalljhall
+github_username: jhalljhall
+instagram_username: jhalljhall
 
 # Build settings
 markdown: kramdown
