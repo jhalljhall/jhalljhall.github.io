@@ -1,5 +1,5 @@
 # Site settings
-title: Justin Hall's Blog
+title: Justin Hall
 email: jhalljhall@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
