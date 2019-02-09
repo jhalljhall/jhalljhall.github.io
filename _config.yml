@@ -12,7 +12,7 @@ url: https://domain.tld
 # Use the empty string '' otherwise.
 # For GitHub project sites, this is usually the name of the project,
 # e.g. `/hydejack`.
-baseurl: "justinhall.com"
+baseurl: ""
 
 # Language of your content in 2-letter code, e.g.: en, de.
 # You may also provide a location, e.g.: en-us, de_AT.
@@ -25,7 +25,7 @@ title:                 Justin Hall
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
   "Discomfort is a desired state".
-  **Hydejack** is your presence on the web, featuring a blog, portfolio, and resume.
+  Blog, portfolio, and resume.
 
 # A shorter description for the sidebar.
 tagline:               '"Discomfort is a desired state"'
