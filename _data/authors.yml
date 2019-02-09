@@ -9,7 +9,6 @@ author1:
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about: |
     Born in Pikeville, KY in 1974 to J.D. Hall and Sharon Hatfield Hall, Justin grew up in the hills of eastern Kentucky. He graduated from Elkhorn City High School in 1993 and Pikeville College (now UPike) in the summer of 1997. Shortly after graduating from UPike, Hall discovered an interest in technology, specifically web related technologies and programming. In 2000, while recovering from back surgery and unemployed, Hall taught himself how to code. 
-
     For the next 14 years Hall worked with Fortune 500 companies, non-for-profit organizations, consulting firms, Ad agencies, and small to medium sized businesses throughout the United States, Canada, and Sweden. He worked with companies associated with the kitchen and bath, coal, health and wellness, and sports industries, as well as, military and government sectors. He continues to work in the field of software development. In 2017, Hall was one of Fast Company's 100 Most Creative People in Business for helping start Bit Source, a company located in eastern Kentucky that employs former coal miners as coders.
 
   # This photo will be used in the about section
@@ -27,11 +26,11 @@ author1:
     twitter: jhalljhall
     github: jhalljhall
     email:           jhalljhall@gmail.com
-    # rss:             https://<url>/feed.xml
+    # rss:             https://www.justinhall.com/feed.xml
     # facebook:        <username>
     # google:          <number>
     # vk:              <username>
-    # youtube:         <string_string_string>
+    youtube:         UCIq-O60i7fqOkPmVN0Rh11g
     # vimeo:           <username>
     # vine:            <username>
     # spotify:         <user>/<number>
@@ -44,11 +43,11 @@ author1:
     # behance:         <username>
     # deviantart:      <username>
     # ello:            <username>
-    # twitch:          <username>
-    # steam:           <number>
+    twitch:          jhalljhall
+    steam:            id/jhalljhall
     # reddit:          <username>
     # tumblr:          <username>
-    # pinterest:       <username>
+    pinterest:       jhalljhall
     # foursquare:      <number>
     # yelp:            <string>
     stackoverflow:   15212778/justin-hall
@@ -62,6 +61,7 @@ author1:
     # stumbleupon:     <username>
     # paypal:          <username>
     # download:        <url>
+    # patreon:           jhalljhall
 
 # Another author (optional)
 author2:

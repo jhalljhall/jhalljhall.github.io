@@ -4,7 +4,7 @@
 # IMPORTANT: Set the URL of your site.
 # Set to https://<username>.github.io when hosting on GitHub Pages
 # (unless you are using a custom domain).
-url: https://domain.tld
+url: https://jhalljhall.github.io
 
 # IMPORTANT: Set The "base URL" of your site.
 # When your site sits in a subdirectory, set to /<name of directory>
@@ -48,7 +48,6 @@ author:
 # This text will appear in a `<small>` tag in the footer of every page.
 copyright: >
   © 2018. All rights reserved.
-  Open `_config.yml` to edit this text.
 
 # Add links to the footer.
 # Typically you'll want to link to your impress, cookies or privacy policy, etc.
@@ -69,7 +68,7 @@ paginate_path: /page-:num/
 # ========================================================================================
 
 # Sidebar image and theme color of the site.
-accent_image: /assets/img/sidebar-bg.jpg
+accent_image: /assets/img/sidebar4-bg.jpg
 accent_color: rgb(79,177,186)
 
 # This is used for the `theme-color` meta tag,
@@ -91,7 +90,7 @@ font_heading: Roboto Slab, Helvetica, Arial, sans-serif
 
 defaults:
   - scope:
-      path: hyde
+      path: blog
     values:
       accent_color: rgb(38,139,210)
       accent_image:

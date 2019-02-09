@@ -3,7 +3,7 @@
 # See also: <https://jsonresume.org/>.
 basics:
   name: "Justin Hall"
-  label: "Programmer"
+  label: "Creative Developer, Agile Coach"
   picture: "/assets/icons/icon.png"
   email: ""
   phone: ""
@@ -14,11 +14,11 @@ basics:
     For the next 14 years Hall worked with Fortune 500 companies, non-for-profit organizations, consulting firms, Ad agencies, and small to medium sized businesses throughout the United States, Canada, and Sweden. He worked with companies associated with the kitchen and bath, coal, health and wellness, and sports industries, as well as, military and government sectors. He continues to work in the field of software development. In 2017, Hall was one of Fast Company's 100 Most Creative People in Business for helping start Bit Source, a company located in eastern Kentucky that employs former coal miners as coders.
 
   location:
-    address: "2712 Broadway St"
-    postalCode: "CA 94115"
-    city: "San Francisco"
+    address: "2868 Jenna Rest"
+    postalCode: "KY 40511"
+    city: "Lexington"
     countryCode: "US"
-    region: "California"
+    region: "Kentucky"
   profiles:
     - network: "Twitter"
       username: "jhalljhall"
@@ -36,7 +36,7 @@ work:
       2819 Studios is a multi-faceted company that mirrors the skills and abilities of CEO, Justin Hall.  The company provides web and mobile software development and agile team coaching.
     highlights:
       - "Trained Coal Miners to become software developers #coalToCode"
-      - "Over 18 years experience"
+      - "Over 18 years experience in software development"
 education:
   - institution: "University of Pikeville"
     area: "Art and Communications"
@@ -46,7 +46,7 @@ education:
     gpa: "3.1"
     courses:
       - "COM101 - What is Communications"
-      - "ART101 - "
+      - "ART204 - Draw what you see"
 awards:
   - title: "Fast Company Most Creative People 2017"
     date: "2017-06-01"
@@ -68,7 +68,7 @@ skills:
   - name: "Drupal Certified Developer"
     level: "Master"
     keywords:
-      - "Drupal"
+      - "Drupal 8"
   - name: "Mobile Development"
     level: "Advanced"
     keywords:
@@ -90,3 +90,7 @@ interests:
     keywords:
       - "board games"
       - "video games"
+  - name: "Sports"
+    keywords:
+      - "baseball"
+      - "basketball"
