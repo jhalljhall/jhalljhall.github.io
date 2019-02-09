@@ -12,23 +12,23 @@ url: https://domain.tld
 # Use the empty string '' otherwise.
 # For GitHub project sites, this is usually the name of the project,
 # e.g. `/hydejack`.
-baseurl: ""
+baseurl: "justinhall.com"
 
 # Language of your content in 2-letter code, e.g.: en, de.
 # You may also provide a location, e.g.: en-us, de_AT.
 lang: en
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Hydejack
+title:                 Justin Hall
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  "Best Jekyll Theme by a Mile".
+  "Discomfort is a desired state".
   **Hydejack** is your presence on the web, featuring a blog, portfolio, and resume.
 
 # A shorter description for the sidebar.
-tagline:               '"Best Jekyll Theme by a Mile"'
+tagline:               '"Discomfort is a desired state"'
 
 # A list of keywords for your blog
 keywords: []
@@ -40,10 +40,10 @@ logo: /assets/icons/icon.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
-  name: <firstname> <lastname>
-  email: <mail@domain.tld>
+  name: Justin Hall
+  email: jhalljhall@gmail.com
   # Used by `jekyll-seo-tag`:
-  # twitter:             <username>
+  # twitter:             <jhalljhall>
 
 # This text will appear in a `<small>` tag in the footer of every page.
 copyright: >
@@ -272,7 +272,7 @@ plugins:
 
 # Used for Twitter cards
 # twitter:
-#   username:            <shortname>
+#   username:            jhalljhall
 
 # Used for Facebook open graph
 # facebook:

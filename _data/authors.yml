@@ -2,24 +2,15 @@
 # Must be the same as `author` in `_config.yml`.
 # Change `author1` to your shortname.
 author1:
-  name: <firstname> <lastname>
-  email: <mail@domain.tld>
+  name: Justin Hall
+  email: jhalljhall@gmail.com
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about: |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    Born in Pikeville, KY in 1974 to J.D. Hall and Sharon Hatfield Hall, Justin grew up in the hills of eastern Kentucky. He graduated from Elkhorn City High School in 1993 and Pikeville College (now UPike) in the summer of 1997. Shortly after graduating from UPike, Hall discovered an interest in technology, specifically web related technologies and programming. In 2000, while recovering from back surgery and unemployed, Hall taught himself how to code. 
 
-    Open `_data/authors.yml` to edit this text.
-
-    [Download Free][kit]
-    -- or --
-    [Buy PRO][buy]
-
-    [kit]: https://github.com/qwtel/hydejack-starter-kit/archive/v8.1.1.zip
-    [buy]: https://app.simplegoods.co/i/NATYVLYT
+    For the next 14 years Hall worked with Fortune 500 companies, non-for-profit organizations, consulting firms, Ad agencies, and small to medium sized businesses throughout the United States, Canada, and Sweden. He worked with companies associated with the kitchen and bath, coal, health and wellness, and sports industries, as well as, military and government sectors. He continues to work in the field of software development. In 2017, Hall was one of Fast Company's 100 Most Creative People in Business for helping start Bit Source, a company located in eastern Kentucky that employs former coal miners as coders.
 
   # This photo will be used in the about section
   picture:
@@ -33,9 +24,9 @@ author1:
   # Comment/uncommet to show/hide
   # Rearrange to change the order in which they appear
   social:
-    twitter: <username>
-    github: <username>
-    # email:           <mail@domain.tld>
+    twitter: jhalljhall
+    github: jhalljhall
+    email:           jhalljhall@gmail.com
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
     # google:          <number>
@@ -46,10 +37,10 @@ author1:
     # spotify:         <user>/<number>
     # soundcloud:      <username>
     # lastfm:          <username>
-    # instagram:       <username>
+    instagram:       jhalljhall
     # flickr:          <string@string>
     # 500px:           <username>
-    # dribbble:        <username>
+    dribbble:        jhalljhall
     # behance:         <username>
     # deviantart:      <username>
     # ello:            <username>
@@ -60,11 +51,11 @@ author1:
     # pinterest:       <username>
     # foursquare:      <number>
     # yelp:            <string>
-    # stackoverflow:   <number/username>
+    stackoverflow:   15212778/justin-hall
     # npm:             <username>
     # hackernews:      <username>
-    # trello:          <firstnamelastname>
-    # linkedin:        <firstname-lastname-string>
+    trello:          justinhall62
+    linkedin:        jhalljhall
     # xing:            <firstname_lastname_counter>
     # blogger:         <number>
     # delicious:       <username>
