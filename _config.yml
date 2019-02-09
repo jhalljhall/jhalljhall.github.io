@@ -25,7 +25,7 @@ title:                 Justin Hall
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
   "Discomfort is a desired state".
-  Blog, portfolio, and resume.
+  Blog, Portfolio, and Resume.
 
 # A shorter description for the sidebar.
 tagline:               '"Discomfort is a desired state"'
@@ -124,7 +124,7 @@ google_analytics:      UA-134150005-1
 
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments: true` in the front matter.
-# disqus:                <disqus_shortname>
+disqus:                disqus_K0vHSx7SR8
 
 # Setting a tinyletter username will enable the newsletter subscription box.
 # tinyletter:            <tinyletter_username>
@@ -199,7 +199,7 @@ hydejack:
   # This is an _experimental_ feature.
   # Only use if you know what Service Workers are and how they can impact your site!
   offline:
-    enabled: false
+    enabled: true
     cache_version: 1
 
 # Collections
@@ -271,7 +271,7 @@ plugins:
 
 # Used for Twitter cards
 # twitter:
-#   username:            jhalljhall
+username:            jhalljhall
 
 # Used for Facebook open graph
 # facebook:
