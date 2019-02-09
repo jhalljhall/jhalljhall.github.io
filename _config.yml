@@ -43,7 +43,7 @@ author:
   name: Justin Hall
   email: jhalljhall@gmail.com
   # Used by `jekyll-seo-tag`:
-  # twitter:             <jhalljhall>
+  twitter:             jhalljhall
 
 # This text will appear in a `<small>` tag in the footer of every page.
 copyright: >
@@ -51,11 +51,11 @@ copyright: >
 
 # Add links to the footer.
 # Typically you'll want to link to your impress, cookies or privacy policy, etc.
-# legal:
-#   - title:             Impress
-#     href:              /impress/
-#   - title:             Cookies Policy
-#     href:              /cookies-policy/
+legal:
+   - title:             Impress
+     href:              /impress/
+   - title:             Cookies Policy
+     href:              /cookies-policy/
 
 # Format of the permalinks
 permalink: /:categories/:year-:month-:day-:title/
@@ -199,7 +199,7 @@ hydejack:
   # This is an _experimental_ feature.
   # Only use if you know what Service Workers are and how they can impact your site!
   offline:
-    enabled: true
+    enabled: false
     cache_version: 1
 
 # Collections
