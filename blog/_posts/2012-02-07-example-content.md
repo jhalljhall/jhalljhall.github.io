@@ -3,7 +3,7 @@ layout: post
 title: Example content
 description: >
   Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
-author: author2
+author: jhalljhall
 canonical_url: http://hyde.getpoole.com/2012/02/07/example-content/
 ---
 

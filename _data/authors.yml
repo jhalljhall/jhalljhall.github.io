@@ -24,7 +24,7 @@ jhalljhall:
     twitter: jhalljhall
     github: jhalljhall
     email:           jhalljhall@gmail.com
-    # rss:             https://www.justinhall.com/feed.xml
+    rss:             https://www.justinhall.com/feed.xml
     # facebook:        <username>
     # google:          <number>
     # vk:              <username>
@@ -37,7 +37,7 @@ jhalljhall:
     instagram:       jhalljhall
     # flickr:          <string@string>
     # 500px:           <username>
-    dribbble:        jhalljhall
+    # dribbble:        jhalljhall
     # behance:         <username>
     # deviantart:      <username>
     # ello:            <username>
@@ -51,7 +51,7 @@ jhalljhall:
     stackoverflow:   15212778/justin-hall
     # npm:             <username>
     # hackernews:      <username>
-    trello:          justinhall62
+    # trello:          justinhall62
     linkedin:        jhalljhall
     # xing:            <firstname_lastname_counter>
     # blogger:         <number>
@@ -59,7 +59,7 @@ jhalljhall:
     # stumbleupon:     <username>
     # paypal:          <username>
     # download:        <url>
-    # patreon:           jhalljhall
+    patreon:           jhalljhall
 
 # Another author (optional)
 author2:
