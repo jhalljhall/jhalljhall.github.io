@@ -43,6 +43,7 @@
     <footer>
       <p class="read-more">
         {{ text | replace:"<!--post_title-->", post_title }}
+        {% include share-bar.html %}
       </p>
     </footer>
   {% endif %}
