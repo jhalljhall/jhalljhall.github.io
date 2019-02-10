@@ -37,7 +37,7 @@ A print resume.
 
 [blog]: /blog/
 [portfolio]: /projects/
-[resume]: /resume/
+[resume]: /assets/Resume.pdf/
 [Hydejack]: https://hydejack.com/
 [Jekyll]: https://www.jekyll.org/
 [GitHub]: https://www.github.com/
