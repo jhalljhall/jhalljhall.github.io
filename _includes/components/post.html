@@ -29,12 +29,13 @@
       </div>
       {% assign alt = '' %}
     {% endif %}{% endunless %}
-
+    
     {% include components/message.html text=post.description hide=page.hide_description alt=alt %}
   </header>
 
   {% if no_excerpt %}
     {{ post.content }}
+    {% include share-bar.html %}
   {% else %}
     {{ post.excerpt }}
 
@@ -43,7 +44,6 @@
     <footer>
       <p class="read-more">
         {{ text | replace:"<!--post_title-->", post_title }}
-        {% include share-bar.html %}
       </p>
     </footer>
   {% endif %}
