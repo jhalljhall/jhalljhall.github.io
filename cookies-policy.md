@@ -3,10 +3,8 @@ menu: false
 author: jhalljhall
 ---
 
-# Cookie Policy
-
-Cookies Policy
-Last updated: November 25, 2017
+# Cookies Policy
+Last updated: February 09, 2019
 
 Justin Hall / jusitnhall.com (“us”, “we”, or “our”) uses cookies on the [https://justinhall.com/](https://justinhall.com/) website (the “Service”). By using the Service, you consent to the use of cookies.
 
