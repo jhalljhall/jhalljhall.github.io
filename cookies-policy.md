@@ -30,10 +30,10 @@ Essential cookies. We may use essential cookies to authenticate users and preven
 
 Analytics cookies. We may use analytics cookies to track information how the Service is used so that we can make improvements. We may also use analytics cookies to test new advertisements, pages, features or new functionality of the Service to see how our users react to them.
 
-Third-party cookies Permalink
+Third-party cookies
 In addition to our own cookies, we may also use various third-parties cookies to report usage statistics of the Service, deliver advertisements on and through the Service, and so on.
 
-What are your choices regarding cookies Permalink
+What are your choices regarding cookies
 If you’d like to delete cookies or instruct your web browser to delete or refuse cookies, please visit the help pages of your web browser.
 
 Please note, however, that if you delete cookies or refuse to accept them, you might not be able to use all of the features we offer, you may not be able to store your preferences, and some of our pages might not display properly.
