@@ -4,12 +4,15 @@ title: The Coal Prince
 description: >
   A story about a young boy from a coal camp in the heart of Appalachia that becomes a hero.
 author: jhalljhall
+image: /assets/img/blog/darkhollercomics_logo.jpg
 ---
 # The Coal Prince
 
 ## A Dark Holler Comics Production
 
 **Dark Holler Comics** is a new entity from the mind of Justin Hall.  As writer, artist, and producer, Justin Hall sees DHC as a way to build worlds, tell stories, and share new experiences through a range of digital platforms.
+
+![](/assets/img/darkhollercomics_logo.jpg)
 
 The first offering from DHC will be a story about Appalachia's first super hero.
 
