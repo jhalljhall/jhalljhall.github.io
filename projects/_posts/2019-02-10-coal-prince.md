@@ -4,7 +4,7 @@ title: The Coal Prince
 description: >
   A story about a young boy from a coal camp in the heart of Appalachia that becomes a hero.
 author: jhalljhall
-image: /assets/img/blog/darkhollercomics_logo.jpg
+image: /assets/img/darkhollercomics_logo.jpg
 ---
 # The Coal Prince
 
