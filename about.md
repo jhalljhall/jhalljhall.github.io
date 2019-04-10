@@ -13,7 +13,7 @@ The reason for a *blog* is to break away from social media's echo chambers.  I w
 
 This site is also a *portfolio* to showcase the projects I wish to share and promote.  This site is powered by [Jekyll] and hosted at [GitHub].  The theme includes a *resume* template.   Feel free to grab the [PDF](assets/Resume.pdf), but note it is a dynamic entity and will evolve.
 
-Want a site like this for yourself? [Contact me](/contact).
+Want a site like this for yourself? [Contact me](/contact/).
 
 > [blog], a [portfolio], and a [resume].
 {:.lead}
@@ -33,7 +33,7 @@ A print resume.
 {:.figure}
 
 ### A Personal Site That Belongs to You
-**Hydejack** is 100% built on Open Source software, and is Open Source itself.  [Contact me](/contact) if you want a site similar to mine to promote your efforts.
+**Hydejack** is 100% built on Open Source software, and is Open Source itself.  [Contact me](/contact/) if you want a site similar to mine to promote your efforts.
 
 [blog]: /blog/
 [portfolio]: /projects/
