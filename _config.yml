@@ -90,21 +90,6 @@ font_heading: Roboto Slab, Helvetica, Arial, sans-serif
 
 defaults:
   - scope:
-      path: blog
-    values:
-      accent_color: rgb(38,139,210)
-      accent_image:
-        background: rgb(32,32,32)
-        overlay: false
-
-  # `jekyll-seo-tag` will mark collection outputs as `BlogPosting`,
-  # but we want them to be `WebPage`s:
-  - scope:
-      type: projects
-    values:
-      seo:
-        type: WebPage
-  - scope:
       type: featured_categories
     values:
       seo:
