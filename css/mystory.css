@@ -38,11 +38,29 @@ article {
 }
 .timeline__nav ul li.active {
   font-weight: bold;
-  color: #f94125;
+  color: #000;
   border-bottom: 1px dotted transparent;
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
 }
 .timeline__nav ul li:hover {
   color: #000;
+}
+
+.timeline__nav li {
+  max-width: 180px;
+}
+
+.nav-link {
+  min-width: 70px;
+}
+
+.nav-link i {
+  color:black;
+  font-size:12pt;
+}
+
+
+.nav-link i:hover {
+  color:#9f9f9f;
 }
