@@ -337,3 +337,5 @@ var submit = $('#submit-btn'); // submit button
 })(jQuery)
 
 // this is a comment
+
+// this is a comment 2
