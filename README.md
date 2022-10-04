@@ -1,6 +1,6 @@
 <a name="readme-top"></a>
 
-[![LinkedIn][https://www.linkedin.com/in/jhalljhall/]
+[![LinkedIn][LinkedIn]][https://www.linkedin.com/in/jhalljhall/]
 
 <!-- PROJECT LOGO -->
 <br />
