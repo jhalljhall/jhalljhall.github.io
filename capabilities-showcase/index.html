@@ -1,0 +1,556 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="color-scheme" content="light dark" />
+  <title>Justin Hall — Capabilities Showcase</title>
+  <meta name="description" content="Justin Hall builds interactive websites, apps, games, AI art & animation, and AR/VR experiences. This page shows examples and plain-English tech stacks." />
+  <style>
+    :root{
+      --bg:#0f172a;          /* slate-900 */
+      --panel:#111827;       /* gray-900 */
+      --muted:#94a3b8;       /* slate-400 */
+      --text:#e5e7eb;        /* gray-200 */
+      --brand:#38bdf8;       /* sky-400 */
+      --accent:#22d3ee;      /* cyan-400 */
+      --card:#0b1224;        /* deep card */
+      --ring:rgba(56,189,248,.25);
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      background:
+        radial-gradient(1200px 600px at 10% -10%, rgba(34,211,238,.15), transparent 60%),
+        radial-gradient(800px 400px at 90% 0%, rgba(56,189,248,.12), transparent 60%),
+        linear-gradient(180deg, #0a0f1f, #0f172a 30%, #0f172a 100%);
+      color:var(--text);
+      line-height:1.6;
+    }
+    a{color:var(--brand); text-decoration:none}
+    a:hover{text-decoration:underline}
+    .wrap{max-width:1100px; margin-inline:auto; padding-inline:24px}
+    header{
+      padding:64px 0 24px;
+    }
+    .hero{
+      display:grid; gap:16px;
+      align-items:center;
+      padding:24px;
+      background:linear-gradient(180deg, rgba(56,189,248,.08), rgba(34,211,238,.05));
+      border:1px solid rgba(56,189,248,.25);
+      border-radius:16px;
+      box-shadow: 0 10px 40px rgba(0,0,0,.35), inset 0 0 40px rgba(56,189,248,.06);
+    }
+    h1{
+      font-size: clamp(28px, 4vw, 40px);
+      line-height:1.15;
+      margin:0;
+      letter-spacing:.2px;
+    }
+    .tagline{color:var(--muted); margin:8px 0 0}
+    .cta-row{display:flex; gap:12px; flex-wrap:wrap; margin-top:18px}
+    .btn{
+      display:inline-flex; align-items:center; gap:10px;
+      padding:12px 16px; border-radius:10px; border:1px solid rgba(56,189,248,.35);
+      background:linear-gradient(180deg, rgba(56,189,248,.18), rgba(34,211,238,.12));
+      color:white; font-weight:600; text-decoration:none; box-shadow:0 6px 24px rgba(56,189,248,.15);
+    }
+    .btn.secondary{
+      background:transparent; border-color:rgba(56,189,248,.25); color:var(--brand);
+    }
+    nav{position:sticky; top:0; z-index:50; backdrop-filter:saturate(120%) blur(8px); background:rgba(10,15,31,.6); border-bottom:1px solid rgba(56,189,248,.12)}
+    .nav-inner{display:flex; gap:16px; overflow:auto; padding:10px 0}
+    .chip{
+      white-space:nowrap; padding:8px 12px; border-radius:999px; border:1px solid rgba(56,189,248,.25); color:var(--muted);
+      background:rgba(11,18,36,.6);
+    }
+    section{padding:28px 0}
+    h2{
+      font-size: clamp(22px, 3vw, 28px);
+      margin:0 0 14px;
+      letter-spacing:.2px;
+    }
+    .sub{color:var(--muted); margin-top:-6px}
+    .grid{
+      display:grid; gap:16px;
+      grid-template-columns:repeat(12,1fr);
+    }
+    .card{
+      grid-column: span 12;
+      background:linear-gradient(180deg, rgba(17,24,39,.85), rgba(11,18,36,.85));
+      border:1px solid rgba(56,189,248,.18);
+      border-radius:14px;
+      padding:16px;
+      box-shadow: 0 10px 30px rgba(0,0,0,.25);
+    }
+    @media (min-width: 720px){
+      .card{grid-column: span 6}
+    }
+    @media (min-width: 980px){
+      .card{grid-column: span 4}
+    }
+    .card h3{margin:0 0 6px; font-size:18px}
+    .card p{margin:0 0 10px; color:var(--muted)}
+    .tags{display:flex; gap:8px; flex-wrap:wrap; margin-top:8px}
+    .tag{font-size:12px; padding:6px 10px; border-radius:999px; border:1px solid rgba(56,189,248,.25); color:#b9e6ff; background:rgba(56,189,248,.08)}
+    .examples{display:flex; gap:12px; flex-wrap:wrap; margin-top:10px}
+    .examples a{font-size:14px; border-bottom:1px dashed rgba(56,189,248,.35)}
+    .icon{width:22px; height:22px; vertical-align:-4px; margin-right:6px; opacity:.9}
+    footer{padding:28px 0 64px; color:var(--muted)}
+    .small{font-size:13px}
+    .hr{height:1px; background:linear-gradient(90deg, transparent, rgba(56,189,248,.25), transparent); margin:20px 0}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="hero">
+        <h1>Justin Hall — Capabilities Showcase</h1>
+        <p class="tagline">I build interactive <strong>websites, apps, games</strong>, <strong>AI art & animation</strong>, and <strong>AR/VR experiences</strong>. Below are examples with <em>plain-English</em> tech stacks for non-technical buyers.</p>
+        <div class="cta-row">
+          <a class="btn" href="#contact">Book a discovery call</a>
+          <a class="btn secondary" href="#sections">Jump to sections ↓</a>
+        </div>
+      </div>
+    </header>
+  </div>
+
+  <nav id="sections">
+    <div class="wrap nav-inner">
+      <a class="chip" href="#websites">Websites</a>
+      <a class="chip" href="#webapps">Web Apps</a>
+      <a class="chip" href="#mobile">Mobile Apps</a>
+      <a class="chip" href="#games">Games</a>
+      <a class="chip" href="#arvr">AR/VR</a>
+      <a class="chip" href="#animation">Animation & Storytelling</a>
+      <a class="chip" href="#aiart">AI Art & Animation</a>
+      <a class="chip" href="#stacks">Tech Stacks</a>
+      <a class="chip" href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Websites -->
+  <div class="wrap">
+    <section id="websites">
+      <h2>🌐 Websites</h2>
+      <p class="sub">Marketing, e-commerce, portfolios, and learning platforms — built for speed, SEO, and conversion.</p>
+      <div class="grid">
+        <div class="card">
+          <h3><img class="icon" src="https://img.icons8.com/color/48/internet--v1.png" alt="">Business Websites</h3>
+          <p>Custom sites that look like Squarespace — but fully tailored to your brand.</p>
+          <div class="examples">
+            <a href="https://www.squarespace.com/" target="_blank" rel="noopener">Example: Squarespace</a>
+          </div>
+          <div class="tags">
+            <span class="tag">HTML/CSS/JS (what you see)</span>
+            <span class="tag">Node.js/PHP (handles data)</span>
+            <span class="tag">AWS/DigitalOcean (hosting)</span>
+          </div>
+        </div>
+        <div class="card">
+          <h3><img class="icon" src="https://img.icons8.com/color/48/shop.png" alt="">E-Commerce</h3>
+          <p>Shops with secure checkout, inventory, taxes, and shipping.</p>
+          <div class="examples">
+            <a href="https://www.shopify.com/" target="_blank" rel="noopener">Example: Shopify</a>
+          </div>
+          <div class="tags">
+            <span class="tag">Payments (Stripe)</span>
+            <span class="tag">Product DB</span>
+            <span class="tag">Order Mgmt</span>
+          </div>
+        </div>
+        <div class="card">
+          <h3><img class="icon" src="https://img.icons8.com/color/48/rocket.png" alt="">Landing Pages</h3>
+          <p>High-impact product/event pages with subtle animation.</p>
+          <div class="examples">
+            <a href="https://stripe.com/" target="_blank" rel="noopener">Example: Stripe</a>
+          </div>
+          <div class="tags">
+            <span class="tag">Fast load</span>
+            <span class="tag">SEO</span>
+            <span class="tag">Analytics</span>
+          </div>
+        </div>
+        <div class="card">
+          <h3><img class="icon" src="https://img.icons8.com/color/48/classroom.png" alt="">Learning Platforms (LMS)</h3>
+          <p>Courses, quizzes, certificates, and student dashboards.</p>
+          <div class="examples">
+            <a href="https://www.opigno.org/" target="_blank" rel="noopener">Example: Opigno</a>
+          </div>
+          <div class="tags">
+            <span class="tag">Drupal/WordPress</span>
+            <span class="tag">User accounts</span>
+            <span class="tag">Reports</span>
+          </div>
+        </div>
+      </div>
+      <div class="hr"></div>
+    </section>
+
+    <!-- Web Apps -->
+    <section id="webapps">
+      <h2>💻 Web Apps</h2>
+      <p class="sub">From dashboards and collaboration to custom AI tools and booking systems.</p>
+      <div class="grid">
+        <div class="card">
+          <h3><img class="icon" src="https://img.icons8.com/color/48/combo-chart--v1.png" alt="">Dashboards</h3>
+          <p>Real-time analytics with charts and role-based access.</p>
+          <div class="examples">
+            <a href="https://analytics.google.com/" target="_blank" rel="noopener">Example: Google Analytics</a>
+          </div>
+          <div class="tags">
+            <span class="tag">React (interactive UI)</span>
+            <span class="tag">FastAPI/Node (server)</span>
+            <span class="tag">SQL/NoSQL</span>
+          </div>
+        </div>
+        <div class="card">
+          <h3><img class="icon" src="https://img.icons8.com/color/48/kanban.png" alt="">Collaboration Tools</h3>
+          <p>Boards, chat, and notifications that update instantly.</p>
+          <div class="examples">
+            <a href="https://trello.com/" target="_blank" rel="noopener">Example: Trello</a>
+          </div>
+          <div class="tags">
+            <span class="tag">WebSockets (real-time)</span>
+            <span class="tag">FastAPI/Express</span>
+          </div>
+        </div>
+        <div class="card">
+          <h3><img class="icon" src="https://img.icons8.com/color/48/artificial-intelligence.png" alt="">Custom AI Tools</h3>
+          <p>Chat interfaces, content assistants, and automation.</p>
+          <div class="examples">
+            <a href="https://chat.openai.com/" target="_blank" rel="noopener">Example: ChatGPT</a>
+          </div>
+          <div class="tags">
+            <span class="tag">React/Svelte</span>
+            <span class="tag">AI APIs (OpenAI/Gemini/local)</span>
+          </div>
+        </div>
+        <div class="card">
+          <h3><img class="icon" src="https://img.icons8.com/color/48/planner.png" alt="">Booking Systems</h3>
+          <p>Calendars, time zones, payments, and reminders.</p>
+          <div class="examples">
+            <a href="https://calendly.com/" target="_blank" rel="noopener">Example: Calendly</a>
+          </div>
+          <div class="tags">
+            <span class="tag">Calendar APIs</span>
+            <span class="tag">Stripe</span>
+          </div>
+        </div>
+      </div>
+      <div class="hr"></div>
+    </section>
+
+    <!-- Mobile Apps -->
+    <section id="mobile">
+      <h2>📱 Mobile Apps</h2>
+      <p class="sub">Cross-platform (iOS/Android) from a single codebase.</p>
+      <div class="grid">
+        <div class="card">
+          <h3><img class="icon" src="https://img.icons8.com/color/48/instagram-new--v1.png" alt="">Social & Community</h3>
+          <p>Feeds, profiles, messaging, push notifications.</p>
+          <div class="examples">
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener">Example: Instagram</a>
+          </div>
+          <div class="tags">
+            <span class="tag">React Native/Flutter</span>
+          </div>
+        </div>
+        <div class="card">
+          <h3><img class="icon" src="https://img.icons8.com/color/48/todo-list.png" alt="">Utilities</h3>
+          <p>Trackers, calculators, and productivity tools.</p>
+          <div class="examples">
+            <a href="https://todoist.com/" target="_blank" rel="noopener">Example: Todoist</a>
+          </div>
+          <div class="tags">
+            <span class="tag">Cross-platform</span>
+          </div>
+        </div>
+        <div class="card">
+          <h3><img class="icon" src="https://img.icons8.com/color/48/augmented-reality.png" alt="">Augmented Reality</h3>
+          <p>Place 3D objects in your space or try-on experiences.</p>
+          <div class="examples">
+            <a href="https://apps.apple.com/us/app/ikea-place/id1279244498" target="_blank" rel="noopener">Example: IKEA Place</a>
+          </div>
+          <div class="tags">
+            <span class="tag">ARKit/ARCore</span>
+            <span class="tag">Unity/Unreal</span>
+          </div>
+        </div>
+        <div class="card">
+          <h3><img class="icon" src="https://img.icons8.com/color/48/open-book--v1.png" alt="">Interactive Storytelling</h3>
+          <p>Webtoon-style reading with animated panels.</p>
+          <div class="examples">
+            <a href="https://www.webtoons.com/" target="_blank" rel="noopener">Example: Webtoon</a>
+            <a href="https://tapas.io/" target="_blank" rel="noopener">Example: Tapas</a>
+          </div>
+          <div class="tags">
+            <span class="tag">Mobile readers</span>
+            <span class="tag">Animations</span>
+          </div>
+        </div>
+      </div>
+      <div class="hr"></div>
+    </section>
+
+    <!-- Games -->
+    <section id="games">
+      <h2>🎮 Games</h2>
+      <p class="sub">From 2D indies to 3D action, card battlers, and AI-driven stories.</p>
+      <div class="grid">
+        <div class="card">
+          <h3><img class="icon" src="https://img.icons8.com/color/48/joystick.png" alt="">2D Games</h3>
+          <p>Pixel art, platformers, sims, and more.</p>
+          <div class="examples">
+            <a href="https://www.stardewvalley.net/" target="_blank" rel="noopener">Example: Stardew Valley</a>
+          </div>
+          <div class="tags">
+            <span class="tag">Godot</span>
+            <span class="tag">Unity</span>
+          </div>
+        </div>
+        <div class="card">
+          <h3><img class="icon" src="https://img.icons8.com/color/48/vr.png" alt="">3D / Action</h3>
+          <p>Cinematic gameplay and physics-based worlds.</p>
+          <div class="examples">
+            <a href="https://www.fortnite.com/" target="_blank" rel="noopener">Example: Fortnite</a>
+          </div>
+          <div class="tags">
+            <span class="tag">Unity</span>
+            <span class="tag">Unreal Engine</span>
+          </div>
+        </div>
+        <div class="card">
+          <h3><img class="icon" src="https://img.icons8.com/color/48/playing-cards.png" alt="">Card & Strategy</h3>
+          <p>Deck builders, PvP, progression, and balance systems.</p>
+          <div class="examples">
+            <a href="https://playhearthstone.com/" target="_blank" rel="noopener">Example: Hearthstone</a>
+          </div>
+          <div class="tags">
+            <span class="tag">WebGL</span>
+            <span class="tag">React UI</span>
+            <span class="tag">Game server</span>
+          </div>
+        </div>
+        <div class="card">
+          <h3><img class="icon" src="https://img.icons8.com/color/48/storytelling.png" alt="">AI-Powered Story Games</h3>
+          <p>Branching narratives with adaptive dialogue.</p>
+          <div class="examples">
+            <a href="https://play.aidungeon.io/" target="_blank" rel="noopener">Example: AI Dungeon</a>
+          </div>
+          <div class="tags">
+            <span class="tag">NLP models</span>
+            <span class="tag">Custom engines</span>
+          </div>
+        </div>
+      </div>
+      <div class="hr"></div>
+    </section>
+
+    <!-- AR/VR -->
+    <section id="arvr">
+      <h2>🕶 AR / VR</h2>
+      <p class="sub">Immersive training, marketing try-ons, and social worlds.</p>
+      <div class="grid">
+        <div class="card">
+          <h3><img class="icon" src="https://img.icons8.com/color/48/virtual-reality.png" alt="">VR Worlds</h3>
+          <p>Multi-user spaces, events, and branded hubs.</p>
+          <div class="examples">
+            <a href="https://hello.vrchat.com/" target="_blank" rel="noopener">Example: VRChat</a>
+          </div>
+          <div class="tags">
+            <span class="tag">Unity</span>
+            <span class="tag">Oculus SDK</span>
+          </div>
+        </div>
+        <div class="card">
+          <h3><img class="icon" src="https://img.icons8.com/color/48/shoes.png" alt="">AR Marketing</h3>
+          <p>Try-on, product previews, and interactive displays.</p>
+          <div class="examples">
+            <a href="https://www.nike.com/" target="_blank" rel="noopener">Example: Nike AR Try-On</a>
+          </div>
+          <div class="tags">
+            <span class="tag">ARKit/ARCore</span>
+            <span class="tag">3D models</span>
+          </div>
+        </div>
+        <div class="card">
+          <h3><img class="icon" src="https://img.icons8.com/color/48/safety-hat.png" alt="">Training Simulations</h3>
+          <p>Safety, onboarding, and complex procedures.</p>
+          <div class="examples">
+            <a href="https://www.strivr.com/" target="_blank" rel="noopener">Example: Strivr</a>
+          </div>
+          <div class="tags">
+            <span class="tag">Unity/Unreal</span>
+            <span class="tag">Headsets</span>
+          </div>
+        </div>
+        <div class="card">
+          <h3><img class="icon" src="https://img.icons8.com/color/48/film-reel.png" alt="">Immersive Storytelling</h3>
+          <p>360° films, interactive scenes, spatial audio.</p>
+          <div class="examples">
+            <a href="https://www.oculus.com/experiences/rift/1987156581336136/" target="_blank" rel="noopener">Example: Wolves in the Walls</a>
+          </div>
+          <div class="tags">
+            <span class="tag">WebXR</span>
+            <span class="tag">Three.js</span>
+          </div>
+        </div>
+      </div>
+      <div class="hr"></div>
+    </section>
+
+    <!-- Animation & Storytelling -->
+    <section id="animation">
+      <h2>🎨 Animation & Storytelling Platforms</h2>
+      <p class="sub">Motion comics, parallax narratives, and interactive graphic novels.</p>
+      <div class="grid">
+        <div class="card">
+          <h3><img class="icon" src="https://img.icons8.com/color/48/comic-book.png" alt="">Motion Comics / Animated Panels</h3>
+          <p>Sequential art with camera moves, sound, and VFX.</p>
+          <div class="examples">
+            <a href="https://variety.com/2021/digital/news/madefire-shuts-down-1234936403/" target="_blank" rel="noopener">Ref: Madefire (archived)</a>
+          </div>
+          <div class="tags">
+            <span class="tag">HTML5 Canvas</span>
+            <span class="tag">AnimeJS/GSAP</span>
+          </div>
+        </div>
+        <div class="card">
+          <h3><img class="icon" src="https://img.icons8.com/color/48/webtoon.png" alt="">Webtoon-Style Readers</h3>
+          <p>Vertical scroll stories with micro-animations.</p>
+          <div class="examples">
+            <a href="https://www.webtoons.com/" target="_blank" rel="noopener">Webtoon</a>
+            <a href="https://www.lezhinus.com/" target="_blank" rel="noopener">Lezhin</a>
+          </div>
+          <div class="tags">
+            <span class="tag">Responsive layouts</span>
+            <span class="tag">Smooth scroll</span>
+            <span class="tag">CDN delivery</span>
+          </div>
+        </div>
+        <div class="card">
+          <h3><img class="icon" src="https://img.icons8.com/color/48/parallax-scrolling.png" alt="">Parallax Stories</h3>
+          <p>Layered scenes that move with the reader.</p>
+          <div class="examples">
+            <a href="https://www.sbs.com.au/theboat/" target="_blank" rel="noopener">The Boat (SBS)</a>
+          </div>
+          <div class="tags">
+            <span class="tag">GSAP</span>
+            <span class="tag">Parallax.js</span>
+          </div>
+        </div>
+        <div class="card">
+          <h3><img class="icon" src="https://img.icons8.com/color/48/choice.png" alt="">Interactive Graphic Novels</h3>
+          <p>Choices, branching paths, and save systems.</p>
+          <div class="examples">
+            <a href="https://homestuck2.com/" target="_blank" rel="noopener">Homestuck 2</a>
+          </div>
+          <div class="tags">
+            <span class="tag">Web engines</span>
+            <span class="tag">Animation libs</span>
+          </div>
+        </div>
+      </div>
+      <div class="hr"></div>
+    </section>
+
+    <!-- AI Art & Animation -->
+    <section id="aiart">
+      <h2>✨ AI Art & Animation (Client-Proven)</h2>
+      <p class="sub">Concept art, illustrations, and AI-assisted animation used in a documentary — paid work with repeat business and referrals.</p>
+      <div class="grid">
+        <div class="card">
+          <h3><img class="icon" src="https://img.icons8.com/color/48/arts-and-crafts.png" alt="">AI Concept Art & Illustration</h3>
+          <p>Rapid ideation for characters, environments, and styles — refined to production-ready assets.</p>
+          <div class="tags">
+            <span class="tag">ComfyUI / InvokeAI</span>
+            <span class="tag">Midjourney / Krita</span>
+            <span class="tag">Prompt-to-pipeline</span>
+          </div>
+        </div>
+        <div class="card">
+          <h3><img class="icon" src="https://img.icons8.com/color/48/clapperboard.png" alt="">AI Motion & Scene Animation</h3>
+          <p>Animated clips for film, marketing, and social — composited with sound and titles.</p>
+          <div class="tags">
+            <span class="tag">After Effects</span>
+            <span class="tag">MotionCanvas/AnimeJS</span>
+            <span class="tag">Frame interpolation</span>
+          </div>
+        </div>
+        <div class="card">
+          <h3><img class="icon" src="https://img.icons8.com/color/48/approval.png" alt="">Commercial Delivery</h3>
+          <p>Clear scope, timelines, usage rights, and on-brand output — what you need to ship.</p>
+          <div class="tags">
+            <span class="tag">Asset mgmt</span>
+            <span class="tag">Review loops</span>
+            <span class="tag">Export for web/film</span>
+          </div>
+        </div>
+      </div>
+      <p class="small">*NDA-covered work available on request. I can share watermarked clips or stills privately.*</p>
+      <div class="hr"></div>
+    </section>
+
+    <!-- Tech Stacks (Plain English) -->
+    <section id="stacks">
+      <h2>🛠 Tech Stacks (Plain English)</h2>
+      <p class="sub">What I use and why it matters — without the jargon.</p>
+      <div class="grid">
+        <div class="card">
+          <h3>MERN</h3>
+          <p>MongoDB (data) + Express (server) + React (the app people click) + Node (runs the server).</p>
+          <div class="tags"><span class="tag">Modern apps</span><span class="tag">Scales well</span></div>
+        </div>
+        <div class="card">
+          <h3>LAMP</h3>
+          <p>Linux + Apache + MySQL + PHP — great for websites, CMS, and e-commerce.</p>
+          <div class="tags"><span class="tag">Reliable</span><span class="tag">Cost-effective</span></div>
+        </div>
+        <div class="card">
+          <h3>JAMstack</h3>
+          <p>Static pages + APIs — super fast, secure, and easy to host.</p>
+          <div class="tags"><span class="tag">Blogs</span><span class="tag">Marketing sites</span></div>
+        </div>
+        <div class="card">
+          <h3>Unity / Unreal</h3>
+          <p>Game engines for 2D/3D, AR/VR, physics, and beautiful visuals.</p>
+          <div class="tags"><span class="tag">Games</span><span class="tag">AR/VR</span></div>
+        </div>
+        <div class="card">
+          <h3>Serverless</h3>
+          <p>Cloud functions that scale on demand (no servers to manage).</p>
+          <div class="tags"><span class="tag">Pay-as-you-go</span><span class="tag">Great for spikes</span></div>
+        </div>
+      </div>
+      <div class="hr"></div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <h2>🤝 Work With Me</h2>
+      <p class="sub">Tell me what you’re building — I’ll map the best scope, timeline, and budget, and suggest quick wins powered by AI.</p>
+      <div class="grid">
+        <div class="card" style="grid-column:span 12;">
+          <h3>Get in touch</h3>
+          <p>Email: <a href="mailto:justin@example.com">justin@example.com</a> &nbsp;•&nbsp; Optional: add your Calendly link here.</p>
+          <div class="tags">
+            <span class="tag">Discovery call</span>
+            <span class="tag">Fixed-bid options</span>
+            <span class="tag">NDA friendly</span>
+          </div>
+        </div>
+      </div>
+      <p class="small">© <span id="y"></span> Justin Hall. Icons by <a href="https://icons8.com" target="_blank" rel="noopener">Icons8</a>. This page is static (no tracking).</p>
+    </section>
+  </div>
+
+  <script>
+    // current year
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
