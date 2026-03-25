@@ -1,1 +1,4 @@
 for f in /opt/kiosk_content/assets/videos/*.mp4; do ffmpeg -i "$f" -c copy -sn "/tmp/no_subs_$(basename "$f")" -y && sudo mv "/tmp/no_subs_$(basename "$f")" "$f"; done
+
+
+changeme
