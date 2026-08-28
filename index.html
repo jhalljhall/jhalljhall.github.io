@@ -130,6 +130,10 @@
     .card .tag { color: var(--accent-2); font-size: .76rem; font-weight: 700; letter-spacing: .11em; text-transform: uppercase; margin-bottom: 10px; }
     .card p { color: var(--muted); }
     .card .result { color: #fff; font-weight: 600; margin-bottom: 0; }
+    .card-link { display: inline-flex; align-items: center; gap: 8px; margin-top: 18px; font-weight: 700; }
+    .open-to { display: inline-flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin: 20px auto 4px; }
+    .open-to span { border: 1px solid var(--line); background: rgba(255,255,255,.035); color: #dce5ed; border-radius: 999px; padding: 8px 12px; font-size: .82rem; }
+
     .capabilities { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-top: 32px; }
     .capability { padding: 22px; border: 1px solid var(--line); border-radius: 12px; background: rgba(255,255,255,.025); }
     .capability i { color: var(--accent-2); font-size: 1.45rem; display: block; margin-bottom: 12px; }
@@ -183,7 +187,7 @@
         <a href="#capabilities">What I Do</a>
         <a href="#mimengine">MiMEngine</a>
         <a href="about.html">About</a>
-        <a href="#contact" class="keep-mobile">Let's Talk</a>
+        <a href="#contact" class="keep-mobile">Work With Me</a>
       </div>
     </div>
   </nav>
@@ -226,6 +230,7 @@
             <h3>Automated router provisioning for retail digital signage</h3>
             <p>Given GL-iNet hardware and an open-ended deployment problem, I learned the firmware/networking domain, designed an automated flashing and configuration workflow, field-tested it in Best Buy stores, and documented it for production handoff in China.</p>
             <p class="result">Result: scaled into large retail deployment with zero support calls or emails after handoff.</p>
+            <a class="card-link" href="case-study-router.html">Read the case study <i class="bi bi-arrow-right"></i></a>
           </article>
 
           <article class="card">
@@ -233,6 +238,7 @@
             <h3>AI-native digital signage platform</h3>
             <p>Started with the question, “Can we build something like BrightSign?” I learned the domain, evaluated an existing codebase, and built a new platform spanning Ubuntu, Flutter, React, Python-based components, physical controls, multi-screen playback, and AI-assisted system inspection.</p>
             <p class="result">Result: a working end-to-end prototype for a new generation of signage tooling.</p>
+            <a class="card-link" href="case-study-digital-signage.html">Read the case study <i class="bi bi-arrow-right"></i></a>
           </article>
 
           <article class="card">
@@ -240,6 +246,7 @@
             <h3>Turned a clinician into an AI-enabled builder</h3>
             <p>Instead of putting a frontier model in the critical path of every user interaction, I built a Drupal/Webform workflow where Claude generated structured YAML that could be reviewed and imported. Then I taught the client how to run the workflow independently.</p>
             <p class="result">Result: the domain expert created 50+ complex, dynamic assessments without needing a developer to author each one.</p>
+            <a class="card-link" href="case-study-ai-webforms.html">Read the case study <i class="bi bi-arrow-right"></i></a>
           </article>
 
           <article class="card">
@@ -247,6 +254,7 @@
             <h3>SmartDocs EMS operations and compliance platform</h3>
             <p>Built a Drupal-based system using Webforms, custom modules, dynamic scoring, and report generation to support EMS and ambulance-run workflows.</p>
             <p class="result">Result: 10,000+ ambulance-run reports in the system; customers reported fewer deficiencies and fines, and the company continues to grow.</p>
+            <a class="card-link" href="case-study-smartdocs.html">Read the case study <i class="bi bi-arrow-right"></i></a>
           </article>
 
           <article class="card">
@@ -254,6 +262,7 @@
             <h3>AI-assisted regression safety net</h3>
             <p>Built a Selenium/Docker/Chrome testing approach that uses AI to scout and map an application, generate browser-test instructions, and keep tests aligned as the underlying system changes.</p>
             <p class="result">Result: caught defects before customers saw them and surfaced issues during a major security/dependency upgrade.</p>
+            <a class="card-link" href="case-study-regression.html">Read the case study <i class="bi bi-arrow-right"></i></a>
           </article>
 
           <article class="card">
@@ -261,6 +270,7 @@
             <h3>Bit Source: from “Can we teach a coal miner to code?” to a software company</h3>
             <p>Helped create the company, designed the technical curriculum, trained the first development team, standardized the stack, established Agile delivery, and worked across architecture, engineering, operations, business development, and storytelling.</p>
             <p class="result">Result: the first cohort reached a paying client project within roughly six months; the company is still operating today.</p>
+            <a class="card-link" href="case-study-bit-source.html">Read the case study <i class="bi bi-arrow-right"></i></a>
           </article>
         </div>
       </div>
@@ -317,6 +327,7 @@
             <div>
               <div class="quote">“Build the system that other ideas can live inside.”</div>
               <p class="muted" style="margin-top:24px;">MiMEngine is both a product effort and a learning engine. It keeps me close to emerging AI tools while forcing those tools to survive contact with an actual creative product.</p>
+              <div class="actions" style="margin-top:24px;"><a class="button secondary" href="case-study-mimengine.html">Read the MiMEngine case study <i class="bi bi-arrow-right"></i></a></div>
             </div>
           </div>
         </div>
@@ -348,11 +359,19 @@
     <section id="contact" class="section alt cta">
       <div class="container">
         <span class="eyebrow">Work With Me</span>
-        <h2>Have a problem that doesn't fit neatly in one department?</h2>
-        <p class="lede">That's usually where I do my best work—creative technology, applied AI, product architecture, AI enablement, forward-deployed problem solving, and the messy territory between them.</p>
+        <h2>I'm looking for the next hard problem worth owning.</h2>
+        <p class="lede">I'm open to full-time roles where I can stay hands-on while helping teams turn ambiguous business or creative problems into useful systems—especially in applied AI, creative technology, product architecture, AI enablement, and forward-deployed work.</p>
+        <div class="open-to" aria-label="Roles and work styles I'm open to">
+          <span>Creative Technologist</span>
+          <span>Applied AI / Solutions Architect</span>
+          <span>AI Enablement</span>
+          <span>Technical / Product Lead</span>
+          <span>Forward Deployed</span>
+        </div>
+        <p class="muted" style="max-width:760px; margin:18px auto 0;">Remote is ideal. Kentucky is home. I'm also open to relocation or travel for the right team, mission, and opportunity to build.</p>
         <div class="actions" style="justify-content:center; margin-top:30px;">
           <a class="button" href="mailto:jhalljhall@gmail.com"><i class="bi bi-envelope"></i> Email me</a>
-          <a class="button secondary" href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ0zKqqwJEbIM6rOPMTSb0AfJil3JHaxayPLismUpBzjthnc1P3XXFD00aaKPPjD8REjceDOn4Ht?es=1&hl=en" target="_blank" rel="noreferrer"><i class="bi bi-calendar3"></i> Book a conversation</a>
+          <a class="button secondary" href="https://calendar.app.google/rrcsrz6uKcakSzaP9" target="_blank" rel="noreferrer"><i class="bi bi-calendar3"></i> Book a conversation</a>
         </div>
         <div class="social">
           <a href="https://www.linkedin.com/in/jhalljhall" target="_blank" rel="noreferrer"><i class="bi bi-linkedin"></i> LinkedIn</a>
